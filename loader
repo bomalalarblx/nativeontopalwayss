@@ -123,7 +123,7 @@ local HttpService = service.HttpService
 local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 
 local Init = Library:Init({
-	Name = "Native";
+	Name = "Block";
 	Parent = service.CoreGui;
 	Callback = function(self)
 
